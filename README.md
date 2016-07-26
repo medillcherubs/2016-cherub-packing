@@ -7,7 +7,7 @@ Paste this into your Wordpress post:
 
 ```
 <div id="cherub-packing"></div>
-<script type="text/javascript" src="//www.cherubs2015.org/wp-content/themes/cherubs-2015/js/vendor/pym.min.js"></script> <script> var pymParent = new pym.Parent("cherub-packing", "//medillcherubs.github.io/2016-cherub-packing/index.html", {}); </script>
+<script> var pymParent = new pym.Parent("cherub-packing", "//medillcherubs.github.io/2016-cherub-packing/index.html", {}); </script>
 
 <!-- Edit: https://github.com/medillcherubs/2016-cherub-packing/edit/gh-pages/index.html -->
 ```
