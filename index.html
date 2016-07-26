@@ -113,12 +113,20 @@ img {
   .next, .prev {
     top: 100px;
     padding: 1em 2em;
-    margin-top:25px;
+    position: static;
+    width: 44px;
+    float: left;
+    margin-right: 12px;
+    margin-top: 0px;
   } 
   .next { right: 15em; }
   .prev { left: 15em; }
   .container {
     margin: 150px auto;
+  }
+  .button-container {
+    margin:0px auto;
+    width: 289px;
   }
 @media (max-width: 500px) {
   .next, .prev {
@@ -136,8 +144,9 @@ img {
 
 <!-- Paste all of your HTML below. -->
 <h1>Dorm Necessities</h1>
+<div class="button-container">
 <div class="prev">Prev</div>
-<div class="next">Next</div>
+<div class="next">Next</div></div>
 <div class="container">
   <div class="carousel">
     <div class="item a active">
