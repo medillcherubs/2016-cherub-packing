@@ -10,7 +10,6 @@ body {
   padding: 70px 0;
   font: 15px/20px Arial, sans-serif;
 }
-
 .container {
   margin: 70px auto;
   width: 250px;
@@ -18,7 +17,6 @@ body {
   position: relative;
   perspective: 1000px;
 }
-
 .carousel {
   height: 100%;
   width: 100%;
@@ -26,7 +24,6 @@ body {
   transform-style: preserve-3d;
   transition: transform 1s;
 }
-
 .item {
   display: block;
   position: absolute;
@@ -40,10 +37,8 @@ body {
   opacity: 0.95;
   border-radius: 10px;
 }
-
 .item span { display: none; }
 .item h3 { display: none; }
-
 .item.active h3 {
   display: block;
   font-size: 28px;
@@ -59,7 +54,6 @@ body {
   line-height: 20px;
   color: black;
 }
-
 .a {
   transform: rotateY(0deg) translateZ(250px);
   background: transparent;
@@ -84,21 +78,23 @@ body {
   transform: rotateY(300deg) translateZ(250px);
   background: transparent;
 }
-
 .next, .prev {
   color: #444;
   position: absolute;
   top: 100px;
   padding: 1em 2em;
   cursor: pointer;
-  background: #CCC;
+  background: #B6ACD1;
   border-radius: 5px;
-  border-top: 1px solid #FFF;
-  box-shadow: 0 5px 0 #999;
+  border: 3px solid black;
   transition: box-shadow 0.1s, top 0.1s;
   font-family: arial;
+  color: #342F2E;
+  font-size: 20px;
+  margin-top:150px;
 }
-.next:hover, .prev:hover { color: #000; }
+.next:hover, .prev:hover { color: #342F2E; 
+  background: #836EAA}
 .next:active, .prev:active {
   top: 104px;
   box-shadow: 0 1px 0 #999;
@@ -113,6 +109,24 @@ img {
   width: 200px;
   float: left;
 }
+@media (max-width: 600px) {
+ .next, .prev {
+  color: #444;
+  position: absolute;
+  top: 100px;
+  padding: 1em 2em;
+  cursor: pointer;
+  background: #B6ACD1;
+  border-radius: 5px;
+  border: 3px solid black;
+  transition: box-shadow 0.1s, top 0.1s;
+  font-family: arial;
+  color: #342F2E;
+  font-size: 20px;
+  margin-top:150px;
+} 
+}
+</style>
 </style>
 
 <!-- Paste all of your HTML below. -->
