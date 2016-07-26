@@ -110,21 +110,17 @@ img {
   float: left;
 }
 @media (max-width: 1015px) {
- .next, .prev {
-  color: #444;
-  position: relative;
-  top: 100px;
-  padding: 1em 2em;
-  cursor: pointer;
-  background: #B6ACD1;
-  border-radius: 5px;
-  border: 3px solid black;
-  transition: box-shadow 0.1s, top 0.1s;
-  font-family: arial;
-  color: #342F2E;
-  font-size: 20px;
-  margin-top:0px;
-} 
+  .next, .prev {
+    position: relative;
+    top: 100px;
+    padding: 1em 2em;
+    margin-top:0px;
+  } 
+  .next { right: 10em; }
+  .prev { left: 10em; }
+  .container {
+    margin: 70px auto;
+  }
 }
 </style>
 
